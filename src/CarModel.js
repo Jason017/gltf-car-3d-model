@@ -32,7 +32,7 @@ export default function Model(props) {
       <mesh
         geometry={nodes.Plane059.geometry}
         // material={materials["Amg-Word"]}
-        material-color="green"
+        material-color="#ffceb8"
       />
       <mesh
         geometry={nodes.Plane081.geometry}
@@ -283,24 +283,28 @@ export default function Model(props) {
       />
       <mesh
         geometry={nodes.Circle037.geometry}
-        material={materials["Brake-Disk"]}
+        // material={materials["Brake-Disk"]}
         position={[0.01, 0, 0.13]}
         rotation={[Math.PI, 0, Math.PI]}
+        material-color="#ffceb8"
       />
       <mesh
         geometry={nodes.Circle032.geometry}
-        material={materials["Brake-Disk"]}
+        // material={materials["Brake-Disk"]}
         position={[0.01, 0, 3.09]}
         rotation={[Math.PI, 0, Math.PI]}
+        material-color="#ffceb8"
       />
       <mesh
         geometry={nodes.Circle015.geometry}
-        material={materials["Brake-Disk"]}
+        // material={materials["Brake-Disk"]}
         position={[0, 0, -2.96]}
+        material-color="#ffceb8"
       />
       <mesh
         geometry={nodes.Circle007.geometry}
-        material={materials["Brake-Disk"]}
+        // material={materials["Brake-Disk"]}
+        material-color="#ffceb8"
       />
       {/* right inner wheel engine */}
       <mesh
@@ -348,7 +352,8 @@ export default function Model(props) {
       />
       <mesh
         geometry={nodes.Circle009.geometry}
-        material={materials["Brake-Hub"]}
+        // material={materials["Brake-Hub"]}
+        material-color="#ffceb8"
       />
       <mesh
         geometry={nodes.Plane008.geometry}
