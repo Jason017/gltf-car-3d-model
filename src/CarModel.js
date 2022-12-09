@@ -10,7 +10,7 @@ export default function Model(props) {
         geometry={nodes.Circle046.geometry}
         // material={materials["Metal-Black-Rough"]}
         position={[0, 0, 4.07]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane082.geometry}
@@ -471,105 +471,105 @@ export default function Model(props) {
         geometry={nodes.Plane031.geometry}
         // material={materials["Metal-Black-Rough"]}
         position={[0, -0.1, -0.06]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane026.geometry}
         // material={materials["Metal-Black-Rough"]}
         position={[0, -0.04, -0.06]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane025.geometry}
         // material={materials["Metal-Black-Rough"]}
         position={[0, 0.01, -0.06]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       {/* front left vertical nose */}
       <mesh
         geometry={nodes.Plane030.geometry}
         // material={materials["Metal-Black-Rough"]}
         rotation={[Math.PI / 2, 0, 0]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane027.geometry}
         // material={materials["Metal-Black-Rough"]}
         rotation={[Math.PI / 2, 0, 0]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane024.geometry}
         // material={materials["metal-Chrome-rough"]}
         rotation={[Math.PI / 2, 0, 0]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane022.geometry}
         // material={materials["Metal-Black-Rough"]}
         rotation={[Math.PI / 2, 0, 0]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane017.geometry}
         // material={materials["Metal-Black-Rough"]}
         rotation={[Math.PI / 2, 0, 0]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane020.geometry}
         // material={materials["Metal-Black-Rough"]}
         rotation={[Math.PI / 2, 0, 0]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane015.geometry}
         // material={materials["Metal-Black-Rough"]}
         rotation={[Math.PI / 2, 0, 0]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       {/* left front bottom nose */}
       <mesh
         geometry={nodes["Guide-Mesh-Car026"].geometry}
         // material={materials["Rubber-Black"]}
-        material-color="#d11f1f"
+        material-color="#e3a496"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car025"].geometry}
         // material={materials["Rubber-Black-Deep"]}
-        material-color="#d11f1f"
+        material-color="#d69d8c"
       />
       <mesh
         geometry={nodes.Plane014.geometry}
         // material={materials["Metal-Black-Rough"]}
         rotation={[Math.PI / 2, 0, 0]}
-        material-color="#d11f1f"
+        material-color="#e3a496"
       />
       <mesh
         geometry={nodes.Plane013.geometry}
         // material={materials["Metal-Black-Rough"]}
         position={[0.1, -0.37, 2.33]}
         rotation={[Math.PI / 2, 0, 0]}
-        material-color="#d11f1f"
+        material-color="#bb897a"
       />
       <mesh
         geometry={nodes.Plane012.geometry}
         // material={materials["Metal-Black-Rough"]}
         position={[0.6, -0.37, 2.33]}
         rotation={[Math.PI / 2, 0, 0]}
-        material-color="#d11f1f"
+        material-color="#e3a496"
       />
       <mesh
         geometry={nodes.Plane011.geometry}
         // material={materials["Metal-Black-Rough"]}
         position={[0.35, -0.37, 2.35]}
         rotation={[Math.PI / 2, 0, 0]}
-        material-color="#d11f1f"
+        material-color="#bb897a"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car021"].geometry}
         // material={materials["Metal-Black-Rough"]}
-        material-color="#d11f1f"
+        material-color="#d2978a"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car014"].geometry}
@@ -579,8 +579,7 @@ export default function Model(props) {
       {/* car left front light */}
       <mesh
         geometry={nodes["Guide-Mesh-Car008"].geometry}
-        // material={materials["Glass-Clear"]}
-        material-color="#ffceb8"
+        material={materials["Glass-Clear"]}
       />
       {/* front left door */}
       <mesh
@@ -625,17 +624,17 @@ export default function Model(props) {
         position={[0, 0, -0.01]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="red"
+        material-color="#fdc6b0"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car030"].geometry}
         // material={materials["Back-Bottom-Paint"]}
-        material-color="red"
+        material-color="#fdc6b0"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car028"].geometry}
         // material={materials["Car-Paint-Red"]}
-        material-color="red"
+        material-color="#fdc6b0"
       />
       {/* front left nose */}
       <mesh
@@ -647,16 +646,15 @@ export default function Model(props) {
       <mesh
         geometry={nodes["Guide-Mesh-Car020"].geometry}
         // material={materials["Car-Paint-Red"]}
-        material-color="#d11f1f"
+        material-color="#e3a496"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car022"].geometry}
         // material={materials["Rubber-Black"]}
-        material-color="#d11f1f"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car012"].geometry}
-        material={materials["Rubber-Black"]}
+        // material={materials["Rubber-Black"]}
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car013"].geometry}
@@ -669,13 +667,13 @@ export default function Model(props) {
       <mesh
         geometry={nodes.LeftTrunk.geometry}
         // material={materials["Car-Paint-Red"]}
-        material-color="purple"
+        material-color="#CF4420"
       />
       {/* the ass */}
       <mesh
         geometry={nodes["Guide-Mesh-Car006"].geometry}
         // material={materials["Car-Paint-Red"]}
-        material-color="red"
+        material-color="#fdc6b0"
       />
       {/* left front corner */}
       <mesh
@@ -686,22 +684,22 @@ export default function Model(props) {
       <mesh
         geometry={nodes["Guide-Mesh-Car005"].geometry}
         // material={materials["Car-Paint-Red"]}
-        material-color="pink"
+        material-color="#fedccd"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car004"].geometry}
         // material={materials["Car-Paint-Red"]}
-        material-color="pink"
+        material-color="#fedccd"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car001"].geometry}
         // material={materials["Car-Paint-Red"]}
-        material-color="#eba36c"
+        material-color="#eeb9a6"
       />
       <mesh
         geometry={nodes.FrontLeftCover.geometry}
         // material={materials["Car-Paint-Red"]}
-        material-color="pink"
+        material-color="#fedccd"
       />
       <mesh
         geometry={nodes.Plane048.geometry}
@@ -712,7 +710,7 @@ export default function Model(props) {
         geometry={nodes.Plane049.geometry}
         // material={materials["Metal-Chrome-SideLogo"]}
         position={[0, 0, -3.06]}
-        material-color="pink"
+        material-color="#fedccd"
       />
       <mesh
         geometry={nodes.Plane055.geometry}
@@ -720,11 +718,6 @@ export default function Model(props) {
         position={[0.95, -0.06, 1]}
         rotation={[Math.PI / 2, 0, -Math.PI / 2]}
         scale={0.19}
-      />
-      <mesh
-        geometry={nodes.Circle045.geometry}
-        material={materials["metal-Chrome-rough"]}
-        position={[0, 0, 4.07]}
       />
       <mesh
         geometry={nodes.Circle047.geometry}
@@ -748,7 +741,7 @@ export default function Model(props) {
         // material={materials["Car-Paint-Red.002"]}
         rotation={[-3.14, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="pink"
+        material-color="#fedccd"
       />
       <mesh
         geometry={nodes.FrontRightWindow.geometry}
@@ -774,7 +767,7 @@ export default function Model(props) {
         // material={materials["Car-Paint-Red.004"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="purple"
+        material-color="#CF4420"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car003"].geometry}
@@ -787,21 +780,21 @@ export default function Model(props) {
         // material={materials["Car-Paint-Red.005"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="red"
+        material-color="#fdc6b0"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car015"].geometry}
         // material={materials["Back-Bottom-Paint.001"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="red"
+        material-color="#fdc6b0"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car016"].geometry}
         // material={materials["Car-Paint-Red.006"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="pink"
+        material-color="#fedccd"
       />
       <mesh
         geometry={nodes.Circle049.geometry}
@@ -829,17 +822,17 @@ export default function Model(props) {
         // material={materials["Car-Paint-Red.010"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="pink"
+        material-color="#fedccd"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car019"].geometry}
-        material={materials["Rubber-Black.001"]}
+        // material={materials["Rubber-Black.001"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car023"].geometry}
-        material={materials["Rubber-Black.002"]}
+        // material={materials["Rubber-Black.002"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
       />
@@ -848,7 +841,7 @@ export default function Model(props) {
         // material={materials["Car-Paint-Red.011"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#dd5a56"
+        material-color="#bb897a"
       />
       {/* right front bottom bumper */}
       <mesh
@@ -856,7 +849,7 @@ export default function Model(props) {
         // material={materials["Rubber-Black-Deep.001"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-0.98, -1, -1]}
-        material-color="#dd5a56"
+        material-color="#fdc6b0"
       />
       {/* left mirror front*/}
       <mesh
@@ -895,21 +888,21 @@ export default function Model(props) {
         // material={materials["Glass-Clear-Rigged.001"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#ffceb8"
+        material-color="#d9a997"
       />
       <mesh
         geometry={nodes.Plane044.geometry}
         // material={materials["Car-Paint-Red.008"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#ffceb8"
+        material-color="#d9a997"
       />
       <mesh
         geometry={nodes.Plane050.geometry}
-        material={materials["Metal-Black-Rough.001"]}
+        // material={materials["Metal-Black-Rough.001"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#ffceb8"
+        material-color="#d9a997"
       />
       {/* left front mirror */}
       <mesh
@@ -983,6 +976,7 @@ export default function Model(props) {
         material={materials["Rubber-Black.003"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
+        material-color="#d9a997"
       />
       {/* right mirror side */}
       <mesh
@@ -1011,14 +1005,14 @@ export default function Model(props) {
         // material={materials["Metal-Black-Rough.002"]}
         rotation={[-Math.PI / 2, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#d11f1f"
+        material-color="#bb897a"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car048"].geometry}
         // material={materials["Rubber-Black.004"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#d11f1f"
+        material-color="#bb897a"
       />
       {/* front chimney */}
       <mesh
@@ -1026,49 +1020,49 @@ export default function Model(props) {
         // material={materials["Metal-Black-Rough.003"]}
         rotation={[-Math.PI / 2, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane018.geometry}
         // material={materials["Metal-Black-Rough.004"]}
         rotation={[-Math.PI / 2, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane019.geometry}
         // material={materials["Metal-Black-Rough.005"]}
         rotation={[-Math.PI / 2, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane021.geometry}
         // material={materials["Metal-Black-Rough.006"]}
         rotation={[-Math.PI / 2, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane023.geometry}
         // material={materials["Metal-Black-Rough.007"]}
         rotation={[-Math.PI / 2, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane028.geometry}
         // material={materials["Metal-Black-Rough.008"]}
         rotation={[-Math.PI / 2, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes.Plane029.geometry}
         // material={materials["metal-Chrome-rough.002"]}
         rotation={[-Math.PI / 2, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#ffceb8"
+        material-color="#dfa492"
       />
       <mesh
         geometry={nodes["Guide-Mesh-Car053"].geometry}
@@ -1104,7 +1098,7 @@ export default function Model(props) {
         // material={materials["Metal-Black-Rough.009"]}
         rotation={[-Math.PI, 0, 0]}
         scale={[-1.01, -1, -1]}
-        material-color="#d11f1f"
+        material-color="#bb897a"
       />
     </group>
   );
